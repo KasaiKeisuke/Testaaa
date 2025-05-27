@@ -142,9 +142,11 @@
     <Text Include="gitattributes.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\a.cpp" />
     <ClCompile Include="..\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\a.h" />
     <ClInclude Include="..\src\main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
