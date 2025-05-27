@@ -143,10 +143,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\a.cpp" />
+    <ClCompile Include="..\src\b.cpp" />
     <ClCompile Include="..\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\a.h" />
+    <ClInclude Include="..\src\b.h" />
     <ClInclude Include="..\src\main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
